@@ -1,2 +1,2 @@
 # jenkinsfile-pipeline-project
-webhook trigger for pipeline
+SCM polling for trigger
