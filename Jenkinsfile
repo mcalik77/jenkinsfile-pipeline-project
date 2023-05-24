@@ -13,5 +13,11 @@ pipeline {
                 sh 'java Hello'
             }
         }
+       stage('trigger') {
+            steps {
+                echo 'This one poll the code from SCM'
+                
+            }
+        }
     }
 }
