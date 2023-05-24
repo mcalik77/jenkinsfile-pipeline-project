@@ -19,5 +19,12 @@ pipeline {
                 
             }
         }
+       stage('Last change') {
+            steps {
+                echo 'Last change'
+                
+            }
+        }
+       
     }
 }
